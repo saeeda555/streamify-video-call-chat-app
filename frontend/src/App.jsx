@@ -7,13 +7,13 @@ import CallPage from "./pages/CallPage.jsx"
 import ChatPage from "./pages/ChatPage.jsx"
 import OnBoardingPage from "./pages/OnboardingPage.jsx"
 import { Toaster } from "react-hot-toast"
-import { useThemeStore } from "./store/useTHemeStore.jsx" 
 
 
 import PageLoader from "./components/PageLoader.jsx"
 
 import useAuthUser from "./hooks/useAuthUser.js"
 import Layout from "./components/Layout.jsx"
+import useThemeStore from "./store/useTHemeStore.js"
 
 
 function App() {
